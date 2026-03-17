@@ -1,9 +1,7 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-south-1"
 }
 
-module "dev_vpc" {
+module "vpc" {
   source = "../../modules/vpc"
-  vpc_cidr = "10.0.0.1/16"
-  vpc_name =  "dev-vpc"
 }
