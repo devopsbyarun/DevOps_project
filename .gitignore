@@ -1,0 +1,5 @@
+
+minikube-linux-amd64
+*.log
+node_modules/
+.env
